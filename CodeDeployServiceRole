@@ -1,0 +1,38 @@
+{
+    "Role": {
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Action": "sts:AssumeRole",
+                    "Principal": {
+                        "Service": [
+                            "codedeploy.us-east-2.amazonaws.com",
+                            "codedeploy.us-east-1.amazonaws.com",
+                            "codedeploy.us-west-1.amazonaws.com",
+                            "codedeploy.us-west-2.amazonaws.com",
+                            "codedeploy.eu-west-3.amazonaws.com",
+                            "codedeploy.ca-central-1.amazonaws.com",
+                            "codedeploy.eu-west-1.amazonaws.com",
+                            "codedeploy.eu-west-2.amazonaws.com",
+                            "codedeploy.eu-central-1.amazonaws.com",
+                            "codedeploy.ap-northeast-1.amazonaws.com",
+                            "codedeploy.ap-northeast-2.amazonaws.com",
+                            "codedeploy.ap-southeast-1.amazonaws.com",
+                            "codedeploy.ap-southeast-2.amazonaws.com",
+                            "codedeploy.ap-south-1.amazonaws.com",
+                            "codedeploy.sa-east-1.amazonaws.com"
+                        ]
+                    },
+                    "Effect": "Allow",
+                    "Sid": ""
+                }
+            ]
+        },
+        "RoleId": "AROAJNA4JI2NCZKXS7Z4U",
+        "CreateDate": "2018-03-05T05:10:57.221Z",
+        "RoleName": "CodeDeployServiceRole",
+        "Path": "/",
+        "Arn": "arn:aws:iam::378255456807:role/CodeDeployServiceRole"
+    }
+}
